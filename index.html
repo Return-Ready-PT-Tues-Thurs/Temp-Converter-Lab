@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
     <title>Temp Converter Lab</title>
 </head>
 <body>
     <!-- create to create a container to center page add box around -->
-    <div class=container>
-        <!-- h1 one tag that I will center insider the box -->
-        <h1> Temperature Scale Convertor</h1>
-        <!-- div that I will use as a part of a row -->
-        <!-- Left -->
-        <div class="fahren">
-            Fahrenheit
+    <div class="container">
+        <div class="box">
+            <!-- h1 one tag that I will center insider the box -->
+            <h1> Temperature Scale Convertor</h1>
+            <!-- div that I will use as a part of a row -->
+            <!-- Left -->
+            <div>
+                <div class="fahren">
+                    Fahrenheit
+                </div>
+                <!-- create and input box center column to input a Fahrenheit value-->
+                <div class ="inputValue">
+                    Value
+                </div>
+                <!-- create a button that starts javascript function -->
+                <div>
+                <button class="calc">Calculate</button>
+                </div>
+                <!-- output conversion value to bottom center column -->
+                <div class="output">
+                    <h3>Celsius</h3>
+                </div>
+            </div>
         </div>
-        <!-- create and input box center column to input a Fahrenheit value-->
-        <div class ="inputValue">
-            Value
-        </div>
-        <!-- create a button that starts javascript function -->
-        <div>
-        <button class="calc">Calculate</button>
-        </div>
-        <!-- output conversion value to bottom center column -->
-        <div class="output">
-            <h3>Celsius</h3>
-        </div>
-
 
     </div>
+    <script src="js/app.js"></script>
 </body>
 </html>
-
-<!--  -->
