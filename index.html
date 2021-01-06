@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="converter">
+            <!-- h1 header Temperature Scale Convertor -->
+            <h1>Temperature Scale Converter</h1>
+
+            <!-- label tag for farenheit | value label and input | calculate button  -->
+            <div class="converterForm">
+                <div class="converterFormElement">
+                    <p>Fahrenheit</p>
+                </div>
+                <div class="converterFormElement display" >
+                    <label for="value">Value</label>
+                    <input type="text" id="inputValue" name="inputValue">
+                </div>
+                <div class="converterFormElement">
+                    <button type="button">Calculate</button>
+                </div>
+            </div>
+            <!-- result div - celsius -->
+            <div>
+                <h2>Celsius</h2>
+                <h2 class="result"></h2>
+            </div>
+        </div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
