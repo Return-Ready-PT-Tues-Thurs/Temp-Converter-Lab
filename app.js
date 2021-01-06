@@ -5,7 +5,8 @@ button.addEventListener('click', toCelsius);
 
 function toCelsius() {
 let fahrenheit = parseFloat(document.querySelector('#inputValue').value);
-    let result = (fahrenheit - 32) * 5 / 9;
+    //store the value to a variable up to 2 decimal
+    let result = ((fahrenheit - 32) * 5 / 9).toFixed(2);
     //add result to the page
     finalValue.innerHTML = result;
 } 
