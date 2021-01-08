@@ -8,19 +8,28 @@
         
         <div class="border">
             <h1>Temperature Scale Convertor</h1>
+
         <div class="container">
             <div class="box">
                 <label>Fahrenheit</label>
             </div>
             <div class="box">
                 <p class="value">Value</p>
-                <input type="text" class="fahrenheit">
+                <!-- <input type="text" id="fahrenheit"> -->
+                <div class='menu pointerCursor hide'>
+                    <input type= "text"
+                    <div>class='option' id='option1'>Fahrenheit</div>
+                    <div class='option' id='option2'>Celsius</div>
+                    <div class='option' id='option3'>Kelvin</div>
+                    <div class='option' id='option4'>Rankine</div>
+                </div>
             </div>
             <div class="box">
-                <button>Calculate</button>
+                <button id = "myButton">Calculate</button>
             </div>
             <div class="box">
                 <p><strong>Celsius</strong></p>
+                <p id="returnValue">100</p>
             </div>
         </div>
     </div>
@@ -28,3 +37,30 @@
         </script>
     </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TSConvert.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p class ="container">
+        <h1>Temperature Converter</h1>
+
+            <input type="text" id="fahrenheit" placeholder="Fahrenheit" name="f" value="" />
+           
+            <input type="text" id="celsius" placeholder="Celsius" name="c" value="" />
+        
+            <button id="convert">Convert!</button>
+            <button id="clear">Reset</button>
+    </p>
+    
+    <script src="TSConvert.js"></script>
+    </body>
+
+    </html> -->
