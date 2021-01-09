@@ -18,14 +18,32 @@
         The third column has a clickable button "Calculate" The calculate button will convert the Fahrenheit value into Celsius
         At the bottom- 
         There is an output titled "Celsius"(bolded and h1) where the user can view the Celsius value(h1)  -->
-    <header class="main-header"></header>
+    <!--<header class="main-header"></header>
         <h1>Temperature Scale Convertor</h1>
-    <div class="container clearfix"></div>
+    <div class="container clearfix">
         <div class="primary col"></div>
             <h4>Fahrenheit</h4>
         <div class="secondary col">Value</div>
         <input type="text">
         <div type="button" class="teritary col">Calculate</div>
     <button type="button">Calculate</button>
+    </div>  -->
+<div>
+    <div class="primary col">
+        <h1>Temperature Scale Convertor</h1>
+    </div>
+
+    <div class="secondary col">
+        <h4>Fahrenheit</h4>
+        <label>Value</label>
+        <input id="userInput" type="text">
+        <button id="button" type="button">Calculate</button>
+    </div>
+    <div>
+        <h4>Celsius</h4>
+        <p id="convert"></p>
+    </div>
+</div>
+<script src="index.js"></script>
 </body>
 </html>
