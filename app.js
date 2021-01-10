@@ -1,16 +1,6 @@
-// function fToC(fahrenheit) {
-//   var fTemp = fahrenheit;
-//   var fToCel = (fTemp - 32) * 5 / 9;
-//   var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
-//     console.log(message);
-// }
+const convertTemp = document.getElementById('fval');
 
-
-
-
-// function fToC(fahrenheit) {
-//     document.getElementById("fValue").value;
-//     let fTemp = fahrenheit;
-//     let fToCel = (fTemp - 32) * 5 / 9;
-//     console.log()
-// }
+document.getElementById('btn').addEventListener('click', function(){
+    let tValue = parseFloat(convertTemp.value);
+    document.getElementById('cval').innerHTML = (1.8 * tValue) + 32;
+});
