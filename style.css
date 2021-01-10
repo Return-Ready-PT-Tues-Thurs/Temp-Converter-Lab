@@ -45,8 +45,17 @@ button {
 .result {
     height: 2rem;
 }
+.resultData{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
 .display{
     display: flex;
     flex-direction: column;
+}
+
+#temperature {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
 }

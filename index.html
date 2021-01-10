@@ -20,7 +20,18 @@
             <!-- label tag for farenheit | value label and input | calculate button  -->
             <div class="converterForm">
                 <div class="converterFormElement">
-                    <p>Fahrenheit</p>
+                    <div class="display">
+                        <label for="temperature">Scale</label>
+                    </div>
+                    <div>
+                        <select name="temperature" id="temperature">
+                        <option value="Fahrenheit" class="scale">Fahrenheit</option>
+                        <option value="Celsius" class="scale">Celsius</option>
+                        <option value="Kelvin" class="scale">Kelvin</option>
+                        <option value="Rankin" class="scale">Rankin</option>
+                        </select>
+                    </div>
+                        
                 </div>
                 <div class="converterFormElement display" >
                     <label for="value">Value</label>
@@ -31,11 +42,26 @@
                 </div>
             </div>
             <!-- result div - celsius -->
-            <div>
-                <h2>Celsius</h2>
-                <h2 class="result"></h2>
+            <div class="resultData">
+                <div>
+                    <h2>Fahrenheit</h2>
+                    <h3 id="fahrenheit" class="result"></h3>
+                </div>
+                <div>
+                    <h2>Celsius</h2>
+                    <h3 id="celsius" class="result"></h3>
+                </div>
+                <div>
+                    <h2>Kelvin </h2>
+                    <h3 id="kelvin" class="result"></h3>
+                </div>
+                <div>
+                    <h2>Rankin</h2>
+                    <h3 id="rankin" class="result"></h3>
+                </div>
             </div>
         </div>
+
         <script src="app.js" async defer></script>
     </body>
 </html>
