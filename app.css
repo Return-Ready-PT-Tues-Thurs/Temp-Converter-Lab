@@ -44,12 +44,9 @@ h1 {
      font-weight: bold;
  }
   
-
-
-
  /* align input box */
  input {
-     /* width: 80%; */
+     width: 80%;
      border-style: solid;
      align-self: auto;
      text-align: center;
@@ -73,6 +70,14 @@ h1 {
     font-weight: bold;
  }
 
+ /* align celsius ouput */
+.cval {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* all div test boxes */
  /* div {
      border-style: dotted;
      border-color: #f5f5f5;
