@@ -19,8 +19,10 @@
                 <p>Fahrenheit</p>
             </div>           
             <div class="col"> 
-                <label for="fval" class="value">Value</label><br>     
-                <input type="number" id="fval" name="fval">
+                <div class="value">
+                    <label>Value</label>
+                    <input id="userInput" type="number" onchange="temperatureConverter(this.value)">
+                </div>
             </div>                 
             <div class="col">
                 <button class="calc" id="btn">Calculate</button>
@@ -28,7 +30,7 @@
             <div class ="row">
                 <div class="col">
                     <h5>Celsius</h5>
-                    <div class="cval"></div>
+                    <center><span id="cval"class="cval"></span></center>
                 </div>
             </div>
         </div>

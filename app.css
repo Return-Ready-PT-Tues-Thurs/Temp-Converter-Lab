@@ -39,31 +39,31 @@ h1 {
     text-align: center;
  }
  
- .cval {
-     text-align: center;
- }
-
  p {
      padding-top:40px;
      font-weight: bold;
-
  }
- 
- .calc {
-     margin: 25px 0px 0px 30px;
+  
 
- }
 
+
+ /* align input box */
  input {
-     width: 80%;
+     /* width: 80%; */
      border-style: solid;
      align-self: auto;
      text-align: center;
  }
  
  .value {
-    padding-left: 40px;
+    padding-left: 10px;
     font-weight: bold;
+    text-align: center;
+}
+
+ /* align calculate button */
+ .calc {
+    margin: 25px 0px 0px 30px;
 }
 
  button {

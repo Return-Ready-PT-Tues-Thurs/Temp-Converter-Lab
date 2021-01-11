@@ -1,6 +1,6 @@
-const convertTemp = document.getElementById('fval');
 
-document.getElementById('btn').addEventListener('click', function(){
-    let tValue = parseFloat(convertTemp.value);
-    document.getElementById('cval').innerHTML = (1.8 * tValue) + 32;
-});
+function temperatureConverter(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("cval").innerHTML=(valNum-32)/1.8;
+  }
+    
