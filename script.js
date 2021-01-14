@@ -1,19 +1,20 @@
 
-function convert(value) {
+function convertFToC(value) {
    let celsius = (5/9) * (value - 32);
    return celsius;
 }
 
-/*function convert(value) {
-let fahrenheit  = celsius - (32/1.8);
-}*/
+function convertCToF(value) {
+   let fahrenheit  = celsius - (32/1.8);
+   return fahrenheit;
+}
 
 const myButton = document.getElementById("myButton");
 
 myButton.addEventListener("click", () => {
    let input = document.getElementById("fahrenheit").value;
-   /*let input = document.getElementById("celsius").value;*/
-      const fToC = convert(input);
+      const fToC = convertFToC(input);
+      console.log(fToC);
       document.getElementById("returnValue").textContent = fToC;
       console.log(fToC);
 });

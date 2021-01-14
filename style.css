@@ -1,106 +1,60 @@
- .container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px 100px;
-    justify-content: center;
-    align-items: center;
+body {
+  font-family: Arial, sans-serif;
+  border: 2px solid black;
 }
 
-.box {
-    height: 200px;
-    width: 400px;
-    border: 1px solid black;
-    position: relative;
-}
-
-.border {
-    border: 1px solid black;
-    padding: 20px;
-}
-
-
-h1 {
-    text-align: center;
-}
-
-label {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-input {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+body
+{
+  display: flex;
+  flex-wrap: wrap;
+  height: 350px;
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
 
 }
 
-.value {
-    padding-bottom: 50px;
+#myButton {
+  background-color: lightblue;
 }
 
-button {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.header-container {
+  height: 50px;
+  margin: 60px;
+  justify-content: center;
 }
 
-p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-} 
+.convert-type-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+}
 
+.conversion-container {
+  height: 100px;
+  width: 600px;
+}
 
-/* #convert {
-    background-color: #bba768;
-  }
-  #convert:hover {
-    background-color: #bcc768;
-  }
-  h1 {
-    font-family: sans-serif;
-    color: #70b2e5;
-  }
-  input {
-    display: block;
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 2em;
-    color: #f4a55a;
-    font-family: cursive, sans-serif;
-  }
-  ::-webkit-input-placeholder {
-     color: #ccc;
-  }
-  :-moz-placeholder { /* Firefox 18- */
-     /* color: #ccc;  
-  }
-  ::-moz-placeholder {  /* Firefox 19+ */
-     /* color: #ccc;  
-  }
-  :-ms-input-placeholder {  
-     color: #ccc;  
-  }
-  button {
-    padding: 10px;
-    font-size: 1.2em;
-    color: #545454;
-  }
+.item-1 {
+  flex-grow: 1;
+  align-self: center;
+  margin-left: 20px;
+}
 
-  .container {
-      border: black solid 2px;
-  } */ */ */
+.item-2 {
+  flex-grow: 1;
+  align-self: center;
+
+}
+
+.item-3 {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.item-4 {
+  margin-left: 250px;
+}
