@@ -1,0 +1,12 @@
+Create header
+Put it all in a container so we can put a border on it
+Form/input field , fahrenheit as the label, input field, calculate button
+Line break
+Output Celsius, centered
+Flex grid to align columns
+
+add event listener to button
+get the value of the input in the form
+convert celsius to fahrenheit
+display the value on 
+clear form
