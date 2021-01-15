@@ -1,0 +1,30 @@
+html/css
+
+h1 one tag that I will center insider the box 
+div that I will use as a part of a row 
+Left 
+
+create and input box center column to input a Fahrenheit value
+create a button that starts javascript function 
+output conversion value to bottom center column                      
+
+javascript
+
+
+1. Get the value from the text box.
+2. Create convert the value to c.
+3. Display the value under c.
+
+
+create drop down to select scale:
+    Kelvin Celsius Fahrenheit
+
+convert value:
+F -> C 
+C -> F
+F -> K
+C -> K
+K -> F
+K -> C
+
+add return value for Kelvin the bottom

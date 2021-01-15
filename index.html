@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+                                                                                    
+    <link rel="stylesheet" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Temp Converter Lab</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row box">
+            <div>
+                <h1> Temperature Scale Convertor</h1>             
+            </div>    
+            <div class="col">
+                <p>Fahrenheit</p>
+            </div>           
+            <div class="col"> 
+                <div class="value">
+                    <label>Value</label>
+                    <input id="userInput" type="number" onchange="temperatureConverter(this.value)">
+                </div>
+            </div>                 
+            <div class="col">
+                <button class="calc" id="btn">Calculate</button>
+            </div>
+            <div class ="row">
+                <div class="col">
+                    <h5>Celsius</h5>
+                    <span id="cval"class="cval"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
